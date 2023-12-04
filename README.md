@@ -1,8 +1,6 @@
 # GitHub Jira Integration using Python Flask (DevOps Project)
 
-# Jenkins Pipeline for java base web application using Maven, SonarQube, Ansible and (EKS) Kubernetes
-
-<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/image/project_concept.png" width="600" height="300">
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" width="600" height="300">
 
 The project involves building and deploying a Java application using a CI/CD pipeline. Here are the steps involved:
 
@@ -200,3 +198,5 @@ The result of the project looks likes below
 # Accessing application
 
 http://dockerserver_ip_address:30000/application_name
+
+[def]: ttps://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.pn

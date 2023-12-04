@@ -1,6 +1,6 @@
 # GitHub Jira Integration using Python Flask (DevOps Project)
 
-<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" width="700" height="300">
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" >
 
 The project involves building and deploying a Java application using a CI/CD pipeline. Here are the steps involved:
 

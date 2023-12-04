@@ -2,7 +2,7 @@
 
 # Jenkins Pipeline for java base web application using Maven, SonarQube, Ansible and (EKS) Kubernetes
 
-<img src="https://github.com/CloudSantosh/jenkins-automate-pipeline-project2-application/blob/main/images/overview.png" width="600" height="300">
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/tree/main/image/project_concept.png" width="600" height="300">
 
 The project involves building and deploying a Java application using a CI/CD pipeline. Here are the steps involved:
 

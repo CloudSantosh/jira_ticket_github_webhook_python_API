@@ -40,7 +40,9 @@ In this project we use issue tracking where python flask application makes API c
 
 # Part 1
 
-## Configure all below pre-requisites for project.
+## Developers Comment
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/issue_comment.png" >
 
 <br/>
 

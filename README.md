@@ -18,33 +18,23 @@ EC2 instances using flask to run the python script as an application.
 
 ## Jira:
 
-```bash
 Jira is a software application developed by the Australian software company Atlassian that allows teams to track issues, manage projects, and automate workflows. Jira is based on four key concepts: issue, project, board and workflow.
-```
 
 - Issue
 
-```bash
 An issue is a single work item you track from creation to completion. An issue could be a bug, a user story, an epic, a to-do item for an HR team, or an artifact that your documentation team needs to create.
-```
 
 - Projects
 
-```bash
 A project is a way to group your issues along with the common information and context that tie those issues together. You can configure issues associated with a project in a variety of ways, including visibility restrictions and applicable workflows.
-```
 
 - Boards
 
-```bash
 A board in Jira is a visual representation of your team’s workflow within a project. You can use multiple boards for flexible ways to view, manage, and report on work in progress on the same project. If you use an agile approach, you may find it helpful to use a Kanban Board view to track backlog items as they refine and a Sprint Board to show the Sprint Backlog for your current sprint.
-```
 
 - Workflows
 
-```bash
 A workflow represents the path that issues take as they progress through your project from creation to completion. Each label in a workflow, such as To Do, In Progress, and Done, represent a status that an issue can take. You can configure workflows to govern the transitions an issue can take between different statuses and trigger actions that occur when an issue moves into a status.
-```
 
 In this project we use issue tracking where python flask application makes API call to Jira to create Jira ticket on the board based on comments made by developers on github issues.
 

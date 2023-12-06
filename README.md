@@ -57,6 +57,11 @@ In this project we use issue tracking where python flask application makes API c
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_response.png" >
 
+## Github Webhook Configure
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook.png" >
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_issue_comments.png" >
 Login Jenkins > New Item > project-1 > Pipeline > OK
 
     	               Pipeline:

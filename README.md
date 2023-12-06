@@ -53,9 +53,9 @@ In this project we use issue tracking where python flask application makes API c
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
-### Configure jenkins pipeline job.
+## Github Response
 
-```
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_response.png" >
 
 Login Jenkins > New Item > project-1 > Pipeline > OK
 
@@ -122,7 +122,7 @@ $ systemctl restart sshd.service
 +++++++++++++++ ANSIBLE SERVER ++++++++++++++++++++++
 
 $ cat /etc/ansible/hosts
- s
+s
 $ > /etc/ansible/hosts
 
 $ cat /etc/ansible/hosts
@@ -134,7 +134,6 @@ $ vim /etc/ansible/hosts
 
 $ cat /etc/ansible/hosts
 
-
 $ su - jenkins // switching to jenkins user as pipeline is executed as jenkins user
 
 $ ansible -m ping kubernetes -u root
@@ -143,7 +142,7 @@ $ ssh root@<kubernetes_ip>
 
 $ ssh-keygen //create ssh keypair for jenkins user
 
-$ ssh-copy-id root@<kubernetes_ip>  // Copying public keypair to the kubnernets server
+$ ssh-copy-id root@<kubernetes_ip> // Copying public keypair to the kubnernets server
 
 $ ssh root@<kubernetes_ip> //Allow ssh login
 
@@ -211,3 +210,4 @@ The result of the project looks likes below
 http://dockerserver_ip_address:30000/application_name
 
 [def]: ttps://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.pn
+```

@@ -2,16 +2,30 @@
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" >
 
-The project involves building and deploying a Java application using a CI/CD pipeline. Here are the steps involved:
+The project involves building and deploying Jira ticket application using python flask via webhook. Here are the steps involved:
 
-**Version Control:** The code is stored in a version control system such as Git, and hosted on GitHub. The code is organized into branches such as the main or development branch.
+**Developers:** When developers comment on the issue using keyword /jira in the text box.
 
-**Continuous Integration:** Jenkins is used as the CI server to build the application. Whenever there is a new code commit, Jenkins automatically pulls the code from GitHub, builds it using Maven, and runs automated tests. If the tests fail, the build is marked as failed and the team is notified.
+**Github:** Github send complete information as payload to the Python API hosted on EC2 instance via webhook.
 
-**Code Quality:** SonarQube is used to analyse the code and report on code quality issues such as bugs, vulnerabilities, and code smells. The SonarQube analysis is triggered as part of the Jenkins build pipeline.
+**EC2 instance hosting API python Application:** EC2 instances using flask to run the python script as an application.
 
-**Containerization:** Docker is used to containerizing the Java application. The Docker file is stored in the Git repository along with the source code. The Docker file specifies the environment and dependencies required to run the application.
+**Jira:** Jira is a software application developed by the Australian software company Atlassian that allows teams to track issues, manage projects, and automate workflows. Jira is based on four key concepts: issue, project, board and workflow.
 
+    Issue
+    An issue is a single work item you track from creation to completion. An issue could be a bug, a user story, an epic, a to-do item for an HR team, or an artifact that your documentation team needs to create.
+
+    Projects
+    A project is a way to group your issues along with the common information and context that tie those issues together. You can configure issues associated with a project in a variety of ways, including visibility restrictions and applicable workflows.
+
+
+    Boards
+    A board in Jira is a visual representation of your team’s workflow within a project. You can use multiple boards for flexible ways to view, manage, and report on work in progress on the same project. If you use an agile approach, you may find it helpful to use a Kanban Board view to track backlog items as they refine and a Sprint Board to show the Sprint Backlog for your current sprint.
+
+    Workflows
+    A workflow represents the path that issues take as they progress through your project from creation to completion. Each label in a workflow, such as To Do, In Progress, and Done, represent a status that an issue can take. You can configure workflows to govern the transitions an issue can take between different statuses and trigger actions that occur when an issue moves into a status.
+
+In this project we use issue tracking where python flask application makes API call to Jira to create Jira ticket on the board based on comments made by developers on github issues.
 **Container Registry:** The Docker image is pushed to Docker Hub, a public or private Docker registry. The Docker image can be versioned and tagged for easy identification.
 
 **Continuous Deployment:** Webhooks is used to automate the deployment of the containerized application to Kubernetes. Whenever a new version of the application image is pushed to the Git repository, Webhook will automatically deploy it to the Kubernetes cluster.

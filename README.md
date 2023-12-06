@@ -45,21 +45,13 @@ In this project we use issue tracking where python flask application makes API c
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/issue_comment.png" >
 
 <br/>
-
-1. **[Install Jenkins & Ansible & Maven ](https://github.com/CloudSantosh/jenkins-automate-pipeline-project2-infra)**
-
-2. **[Install Sonarqube](https://github.com/CloudSantosh/jenkins-automate-pipeline-project2-infra#sonarqube-installation)**
-
-3. **[Install Kubernetes Cluster](https://github.com/CloudSantosh/jenkins-automate-pipeline-project2-infra#kubernetes-cluster-installation)**
-
-4. **[Git Account](https://github.com/)**
-
-5. **[Dockerhub Account](https://hub.docker.com/)**
-
-<br/>
 <br/>
 
 # PART-2
+
+## Github Payload
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
 ### Configure jenkins pipeline job.
 

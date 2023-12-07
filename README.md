@@ -41,6 +41,7 @@ A workflow represents the path that issues take as they progress through your pr
 In this project we use issue tracking where python flask application makes API call to Jira to create Jira ticket on the board based on comments made by developers on github issues.
 
 <br>
+
 # 🚀 Part 1
 
 ## Developers Comment on Issue on Github
@@ -324,3 +325,11 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
     ⚡️ Copy the API token and save it
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/jira_token.png" >
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-nepali-tech/)
+
+## Badges
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

@@ -47,7 +47,6 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/issue_comment.png" >
 
 <br/>
-<br/>
 
 # 🚀 PART-2
 
@@ -55,11 +54,11 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
-## Github Response received from Flask Python Application
+## Github receives as Response from Flask Python Application
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_response.png" >
 
-## Github Webhook Configure
+## Github Webhook Configuration
 
     ⚡️ Click at repository
 

@@ -88,6 +88,172 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 
 # 🚀 PART-3
 
+This Python script is a Flask web application that serves as a GitHub webhook receiver. When a GitHub webhook event is received, specifically an issue comment event, the application checks for certain keywords in the comment. If any of the specified keywords ("/jira", "/Jira", or "/JIRA") are found, it triggers the creation of a corresponding issue in Jira.
+
+Let's break down the code step by step:
+
+1. **Importing Libraries:**
+
+   ```python
+   from flask import Flask, request, jsonify
+   from requests.auth import HTTPBasicAuth
+   import json
+   from dotenv import load_dotenv
+   import os
+   import requests
+   ```
+
+   The script imports the necessary libraries: Flask for creating a web application, request for handling HTTP requests, jsonify for creating JSON responses, HTTPBasicAuth for HTTP basic authentication, json for working with JSON data, dotenv for loading environment variables, os for interacting with the operating system, and requests for making HTTP requests.
+
+2. **Create Flask App:**
+
+   ```python
+   app = Flask(__name__)
+   ```
+
+   The Flask application is created with the name `app`.
+
+3. **Load Environment Variables:**
+
+   ```python
+   load_dotenv()
+   ```
+
+   The `load_dotenv()` function is used to load environment variables from a file named `.env`.
+
+4. **Set Jira Credentials:**
+
+   ```python
+   jira_email = os.environ.get('JIRA_EMAIL')
+   jira_api_token = os.environ.get('JIRA_API_TOKEN')
+   jira_base_url = "https://santoshtechguyjira.atlassian.net"
+   ```
+
+   The Jira credentials (email and API token) and base URL are loaded from environment variables.
+
+5. **Set Jira Project and Issue Type:**
+
+   ```python
+   jira_project_key = "TP"
+   jira_issue_type = "10006"
+   ```
+
+   The Jira project key and issue type are specified.
+
+6. **Define a Route for GitHub Webhook:**
+
+   ```python
+   @app.route("/github_webhook", methods=['POST'])
+   ```
+
+   This line defines a route for the "/github_webhook" endpoint, and it specifies that the route should only respond to HTTP POST requests.
+
+7. **GitHub Webhook Handling Function:**
+
+   ```python
+   def github_webhook():
+   ```
+
+   This function is executed when a POST request is made to the "/github_webhook" endpoint.
+
+8. **Parse GitHub Webhook Payload:**
+
+   ```python
+   payload = request.json
+   ```
+
+   The incoming JSON payload from the GitHub webhook is parsed.
+
+9. **Check for Issue Comment:**
+
+   ```python
+   if 'issue' in payload and 'comment' in payload:
+   ```
+
+   It checks if the payload contains information about an issue and a comment.
+
+10. **Check for Jira Keywords in Comment:**
+
+    ```python
+    if any(keyword in issue_comment for keyword in jira_keywords):
+    ```
+
+    It checks if any of the specified keywords ("/jira", "/Jira", "/JIRA") are present in the issue comment.
+
+11. **Call Function to Create Jira Issue:**
+
+    ```python
+    create_jira_issue(payload)
+    ```
+
+12. **Return Webhook Response:**
+
+    ```python
+    return jsonify({'message': 'Webhook received successfully'}), 200
+    ```
+
+    A JSON response is returned indicating that the webhook was received successfully.
+
+13. **Function to Create Jira Issue:**
+
+    ```python
+    def create_jira_issue(payload):
+    ```
+
+    This function is responsible for creating a new issue in Jira.
+
+14. **Jira API URL and Authentication:**
+
+    ```python
+    url = f"{jira_base_url}/rest/api/3/issue"
+    auth = HTTPBasicAuth(jira_email, jira_api_token)
+    ```
+
+    The Jira API URL and authentication details are set up.
+
+15. **Headers and Payload for Jira Issue:**
+
+    ```python
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/json"
+    }
+    jira_payload = {
+        # ... (JSON data for creating a new Jira issue)
+    }
+    ```
+
+16. **Make a POST Request to Jira API:**
+
+    ```python
+    response = requests.request(
+        "POST",
+        url,
+        json=jira_payload,
+        headers=headers,
+        auth=auth
+    )
+    ```
+
+    A POST request is made to the Jira API using the `requests` library, with the specified URL, payload, headers, and authentication.
+
+17. **Return JSON Response:**
+
+    ```python
+    return jsonify(json.loads(response.text)), 200
+    ```
+
+    The JSON response from the Jira API is returned.
+
+18. **Run the Flask App:**
+    ```python
+    if __name__ == "__main__":
+        app.run('0.0.0.0', port=5000)
+    ```
+    The script checks whether it is being run directly (`__name__ == '__main__'`) and, if so, starts the Flask web application on the specified host and port (0.0.0.0:5000). This makes the web service accessible externally.
+
+In summary, this script creates a Flask web service that acts as a GitHub webhook receiver. When it receives a webhook event related to an issue comment and detects specific keywords, it triggers the creation of a corresponding issue in Jira.
+
 # 🚀 PART-4
 
 Login Jenkins > New Item > project-1 > Pipeline > OK

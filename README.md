@@ -138,7 +138,7 @@ Let's break down the code step by step:
    jira_issue_type = "10006"
    ```
 
-   The Jira project key and issue type are specified.
+   The Jira project key and issue type are specified. Issue type: Bug(10008), Epic(10009), Story(10006), Task(10007) and subtask(10010)
 
 6. **Define a Route for GitHub Webhook:**
 

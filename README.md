@@ -54,6 +54,9 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/payload_abc.png">
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/payload_jira.png">
+
 ## Github receives as Response from Flask Python Application
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_response.png" >

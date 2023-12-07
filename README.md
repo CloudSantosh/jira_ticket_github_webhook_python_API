@@ -1,5 +1,7 @@
 ## GitHub Jira Integration using Python Flask (DevOps Project) 👋
 
+<br>
+
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" >
 
 The project involves building and deploying Jira ticket application using python flask via webhook. Here are components involved:
@@ -38,6 +40,7 @@ A workflow represents the path that issues take as they progress through your pr
 
 In this project we use issue tracking where python flask application makes API call to Jira to create Jira ticket on the board based on comments made by developers on github issues.
 
+<br>
 # 🚀 Part 1
 
 ## Developers Comment on Issue on Github

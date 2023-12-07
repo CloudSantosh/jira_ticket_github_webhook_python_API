@@ -42,6 +42,8 @@ In this project we use issue tracking where python flask application makes API c
 
 ## Developers Comment on Issue on Github
 
+Here developers make comment on the issue with the keyword /Jira with detail information about the issue.
+
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/issue_comment.png" >
 
 <br/>

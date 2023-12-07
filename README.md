@@ -285,17 +285,22 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/dashboard.png" >
 
+<br/>
+
 ### 🛠 Result with /JIRA keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/JIRA.png" >
+
+<br/>
 
 ### 🛠 Result with /Jira keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/Jira_1.png" >
 
+<br/>
+
 ### 🛠 But we are not able to get issue comment with /abc on the jira dashboard.
 
-<br>
 <br>
 
 ## Token on Jira for API communication with Flask python

@@ -4,19 +4,19 @@
 
 The project involves building and deploying Jira ticket application using python flask via webhook. Here are components involved:
 
-## Developers:
+#### Developers:
 
 When developers comment on the issue using keyword /jira in the text box.
 
-## Github:
+#### Github:
 
 Github send complete information as payload to the Python API hosted on EC2 instance via webhook.
 
-## EC2 instance hosting API python Application:
+#### EC2 instance hosting API python Application:
 
 EC2 instances using flask to run the python script as an application.
 
-## Jira:
+#### Jira:
 
 Jira is a software application developed by the Australian software company Atlassian that allows teams to track issues, manage projects, and automate workflows. Jira is based on four key concepts: issue, project, board and workflow.
 
@@ -70,6 +70,9 @@ In this project we use issue tracking where python flask application makes API c
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook.png" >
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_issue_comments.png" >
+
+# PART-3
+
 Login Jenkins > New Item > project-1 > Pipeline > OK
 
     	               Pipeline:

@@ -1,38 +1,38 @@
-# GitHub Jira Integration using Python Flask (DevOps Project)
+## GitHub Jira Integration using Python Flask (DevOps Project) 👋
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/project_concept.png" >
 
 The project involves building and deploying Jira ticket application using python flask via webhook. Here are components involved:
 
-### Developers:
+### 💬 Developers:
 
 When developers comment on the issue using keyword /jira in the text box.
 
-### Github:
+### 💬 Github:
 
 Github send complete information as payload to the Python API hosted on EC2 instance via webhook.
 
-### EC2 instance hosting API python Application:
+### 💬 EC2 instance hosting API python Application:
 
 EC2 instances using flask to run the python script as an application.
 
-### Jira:
+### 💬 Jira:
 
 Jira is a software application developed by the Australian software company Atlassian that allows teams to track issues, manage projects, and automate workflows. Jira is based on four key concepts: issue, project, board and workflow.
 
-- Issue
+- Issue 👩‍💻
 
 An issue is a single work item you track from creation to completion. An issue could be a bug, a user story, an epic, a to-do item for an HR team, or an artifact that your documentation team needs to create.
 
-- Projects
+- Projects 👩‍💻
 
 A project is a way to group your issues along with the common information and context that tie those issues together. You can configure issues associated with a project in a variety of ways, including visibility restrictions and applicable workflows.
 
-- Boards
+- Boards 👩‍💻
 
 A board in Jira is a visual representation of your team’s workflow within a project. You can use multiple boards for flexible ways to view, manage, and report on work in progress on the same project. If you use an agile approach, you may find it helpful to use a Kanban Board view to track backlog items as they refine and a Sprint Board to show the Sprint Backlog for your current sprint.
 
-- Workflows
+- Workflows 👩‍💻
 
 A workflow represents the path that issues take as they progress through your project from creation to completion. Each label in a workflow, such as To Do, In Progress, and Done, represent a status that an issue can take. You can configure workflows to govern the transitions an issue can take between different statuses and trigger actions that occur when an issue moves into a status.
 

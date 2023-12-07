@@ -59,13 +59,19 @@ In this project we use issue tracking where python flask application makes API c
 
 ## Github Webhook Configure
 
-- ⚡️ Click at repository
-- ⚡️ Click at settings
-- ⚡️ Click at Webhooks
-- ⚡️ Click at "Add Webhook"
-- ⚡️ Click Public IP address with 5000 ports as defined in Payload URL
-- ⚡️ Choose Issue Comments
-- ⚡️ Press Add Webhook
+⚡️ Click at repository
+
+⚡️ Click at settings
+
+⚡️ Click at Webhooks
+
+⚡️ Click at "Add Webhook"
+
+⚡️ Click Public IP address with 5000 ports as defined in Payload URL
+
+⚡️ Choose Issue Comments
+
+⚡️ Press Add Webhook
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook.png" >
 

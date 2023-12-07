@@ -330,6 +330,12 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santosh-nepali-tech/)
 
-## Badges
+## 🔗 Reference of Documentation
+
+[[GitHub Rest API Documentation]](https://docs.github.com/en/rest?apiVersion=2022-11-28)
+
+[[Jira Rest API Documentation]](https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about)
+
+## 🔗 Badges
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)

@@ -40,7 +40,7 @@ In this project we use issue tracking where python flask application makes API c
 
 # 🚀 Part 1
 
-## Developers Comment
+## Developers Comment on Issue on Github
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/issue_comment.png" >
 
@@ -49,23 +49,23 @@ In this project we use issue tracking where python flask application makes API c
 
 # 🚀 PART-2
 
-## Github Payload
+## Github Payload Send to Python Application Hosted in AWS EC2 Instance
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
-## Github Response
+## Github Response received from Flask Python Application
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_response.png" >
 
 ## Github Webhook Configure
 
-- Click at repository
-- Click at settings
-- Click at Webhooks
-- Click at "Add Webhook"
-- Click Public IP address with 5000 ports as defined in Payload URL
-- Choose Issue Comments
-- Press Add Webhook
+- ⚡️ Click at repository
+- ⚡️ Click at settings
+- ⚡️ Click at Webhooks
+- ⚡️ Click at "Add Webhook"
+- ⚡️ Click Public IP address with 5000 ports as defined in Payload URL
+- ⚡️ Choose Issue Comments
+- ⚡️ Press Add Webhook
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook.png" >
 

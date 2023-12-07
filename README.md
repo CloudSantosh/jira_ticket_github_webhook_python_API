@@ -86,6 +86,8 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_issue_comments.png" >
 
+<br/>
+
 # 🚀 PART-3
 
 This Python script is a Flask web application that serves as a GitHub webhook receiver. When a GitHub webhook event is received, specifically an issue comment event, the application checks for certain keywords in the comment. If any of the specified keywords ("/jira", "/Jira", or "/JIRA") are found, it triggers the creation of a corresponding issue in Jira.
@@ -272,22 +274,42 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/python_application.png" >
 
+<br/>
+
 # 🚀 PART-4
 
 ## Jira Dashboard with Issue
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/dashboard.png" >
 
-#### 🛠 Result with /JIRA keyword on jira dashboard
+### 🛠 Result with /JIRA keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/JIRA.png" >
 
-#### 🛠 Result with /Jira keyword on jira dashboard
+### 🛠 Result with /Jira keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/Jira_1.png" >
 
-#### 🛠 But we are not able to get issue comment with /abc on the jira dashboard.
+### 🛠 But we are not able to get issue comment with /abc on the jira dashboard.
 
-## Steps to define token on Jira for API communication with Flask python application to Jira
+## Token on Jira for API communication with Flask python
+
+⚡️ Click at right corner on account profile
+
+    ⚡️ Click at profile
+
+    ⚡️ Click at manage your account
+
+    ⚡️ Click at Security
+
+    ⚡️ Click at create and manage API tokens
+
+    ⚡️ Click at Create API token
+
+    ⚡️ Type at Label
+
+    ⚡️ Click at create
+
+    ⚡️ Copy the API token and save it
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/jira_token.png" >

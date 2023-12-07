@@ -54,11 +54,11 @@ Here developers make comment on the issue with the keyword /Jira with detail inf
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/webhook_payload_request.png" >
 
-### Payload with keyword /Jira
+- Payload with keyword /Jira
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/payload_Jira.png">
 
-### Payload with keyword /abc
+- Payload with keyword /abc
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/payload_abc.png">
 

@@ -138,7 +138,7 @@ Let's break down the code step by step:
    jira_issue_type = "10006"
    ```
 
-   The Jira project key and issue type are specified. Issue type: Bug(10008), Epic(10009), Story(10006), Task(10007) and subtask(10010)
+   The Jira project key and issue type are specified. Project_key is the First letter of each words. Issue type: Bug(10008), Epic(10009), Story(10006), Task(10007) and subtask(10010)
 
 6. **Define a Route for GitHub Webhook:**
 
@@ -253,6 +253,24 @@ Let's break down the code step by step:
     The script checks whether it is being run directly (`__name__ == '__main__'`) and, if so, starts the Flask web application on the specified host and port (0.0.0.0:5000). This makes the web service accessible externally.
 
 In summary, this script creates a Flask web service that acts as a GitHub webhook receiver. When it receives a webhook event related to an issue comment and detects specific keywords, it triggers the creation of a corresponding issue in Jira.
+
+#### Configuration of Flask Application
+
+    ⚡️ Updating the system
+    	- sudo apt update
+
+    ⚡️ pip installation to interacts with PyPI(Python Package Index)
+    	- sudo apt install python3-pip
+
+    ⚡️ Installing flask
+    	- sudo apt install python3-flask
+
+    ⚡️ Installation of dotenv to a Python library that helps with loading environment variables
+    	- sudo pip3 install python-dotenv
+
+#### Running of Application on EC2 AWS Instances
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/python_application.png" >
 
 # 🚀 PART-4
 

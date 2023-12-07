@@ -274,6 +274,11 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
 
 # 🚀 PART-4
 
+## Jira Dashboard with Issue
+
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/JIRA.png" >
+<img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/Jira_1.png" >
+
 Login Jenkins > New Item > project-1 > Pipeline > OK
 
     	               Pipeline:

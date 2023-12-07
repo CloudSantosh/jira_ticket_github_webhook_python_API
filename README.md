@@ -276,11 +276,11 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
 
 ## Jira Dashboard with Issue
 
-⚡️ Result with /JIRA keyword on jira dashboard
+🛠 Result with /JIRA keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/JIRA.png" >
 
-⚡️ Result with /Jira keyword on jira dashboard
+🛠 Result with /Jira keyword on jira dashboard
 
 <img src="https://github.com/CloudSantosh/jira_ticket_github_webhook_python_API/blob/main/image/Jira_1.png" >
 

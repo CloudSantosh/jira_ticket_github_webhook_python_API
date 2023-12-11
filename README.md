@@ -272,7 +272,10 @@ In summary, this script creates a Flask web service that acts as a GitHub webhoo
     	- sudo apt install python3-flask
 
     ⚡️ Installation of dotenv to a Python library that helps with loading environment variables
-    	- sudo pip3 install python-dotenv
+    	- sudo pip3 install python3-dotenv
+
+    ⚡️ Installation of requests to a Python library
+    	- sudo pip3 install requests
 
 #### Running of Application on EC2 AWS Instances
 
